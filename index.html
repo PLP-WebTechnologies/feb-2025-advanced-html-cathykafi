@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta name="description" content="Week2 Assignment"
+    <title>Assignment</title>
+    <style>
+        table, th,td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        } 
+        th, td {
+            padding:8px;
+        }
+    </style>
+ </head>
+ <body>
+    <!--ordered list -->
+    <h2>The ordered list</h2>
+    <ol type="I">
+        <li>Thing one</li>
+        <li>Thing two</li>
+        <li>Thing three</li>
+        <li>Thing four</li>
+        <li>Thing five</li>
+    </ol>
+    <!--the image part-->
+    <h2>Dog sitting</h2>
+    <img src="https://www.pexels.com/photo/dog-sitting-and-looking-up-11497213/">
+    <!-- Contacts-->
+    <h2>This is the contacts table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nmame</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hellen Gatere</td>
+                <td>0100 Nairobi</td>
+                <td>0710029978</td>
+                <td>helleng@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Daniel Nguru</td>
+            <td>245 Githurai</td>
+            <td>0117891233</td>
+            <td>danielnguru@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Grace Mutheu</td>
+            <td>237 Thika</td>
+            <td>01122678990</td>
+            <td>graciem@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Carol Wamuyu</td>
+            <td>276 Gatundu</td>
+            <td>0799876563</td>
+            <td>wamuyukiratu@hotmail.com</td>
+        </tr>
+        <tr>
+            <td>Jeff Kiragu</td>
+            <td>789 Mombasa</td>
+            <td>0753897654</td>
+            <td>kiraguj@email.com</td>
+        </tr>
+        </tbody>
+    </table>
+    <!--the registration form-->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST"
+    <label for="name">Full Name</label></br>
+    <input type="text" id="name" name="email" plaeholder="Please Enter Your Name" required><br><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Please Enter Your Email" required><br><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" placeholder="Please Enter Your Password" required><br><br>
+    <label for="date of birth">Date of Birth:</label><br>
+    <input type="date" id="Date of Birth" required><br><br>
+    <!--the dropdown menu-->
+    <label for="country">Select Country:</label><br>
+        <select id="country" name="country" required>
+            <option value="">--Please choose--</option>
+            <option value="ke">Kenya</option>
+            <option value="ug">Uganda</option>
+            <option value="tz">Tanzania</option>
+            <option value="gh">Ghana</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <!-- Checkboxes -->
+        <p>Interests:</p>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label><br>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="travel" name="interests" value="travel">
+        <label for="travel">Travel</label><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+    </form>
+
+
+
+
+
+ </body>
+
+
+
+
+</html>
